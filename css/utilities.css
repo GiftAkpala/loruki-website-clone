@@ -28,6 +28,40 @@
 .btn:hover {
     transform: scale(0.98);
 }
+
+/* backgrounds and color buttons */
+.bg-primary, .bg-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.bg-secondary, .bg-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.bg-dark, .btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+.bg-light, .bg-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+/* Text sizes */
+.lead {
+    font-size: 1rem;
+}
+.sm {
+    font-size: 1rem;
+}
+.md {
+    font-size: 2rem;
+}
+.lg{
+    font-size: 2rem;
+}
+.xl {
+    font-size: 3rem;
+}
 .text-center {
     text-align: center;
 }
