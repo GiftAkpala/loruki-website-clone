@@ -46,6 +46,9 @@
     background-color: var(--light-color);
     color: #333;
 }
+.bg-primary a, .bg-primary a, .bg-secondary a, .bg-secondary a, .bg-dark a, .btn-dark a {
+    color: #fff
+}
 /* Text sizes */
 .lead {
     font-size: 1rem;
