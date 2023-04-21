@@ -29,7 +29,7 @@
     transform: scale(0.98);
 }
 
-/* backgrounds and color buttons */
+/* backgrounds and colored buttons */
 .bg-primary, .bg-primary {
     background-color: var(--primary-color);
     color: #fff;
@@ -46,12 +46,17 @@
     background-color: var(--light-color);
     color: #333;
 }
-.bg-primary a, .bg-primary a, .bg-secondary a, .bg-secondary a, .bg-dark a, .btn-dark a {
+.bg-primary a, 
+.bg-primary a,
+ .bg-secondary a,
+ .bg-secondary a, 
+ .bg-dark a,
+  .btn-dark a {
     color: #fff
 }
 /* Text sizes */
 .lead {
-    font-size: 1rem;
+    font-size: 20px;
 }
 .sm {
     font-size: 1rem;
@@ -103,7 +108,7 @@
 }
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100%;
 }
