@@ -173,23 +173,6 @@ code, pre {
   transform: translateY(-15px);
 }
 
-/*  Footer */
-.footer .social a {
-  margin: 0 10px;
-}
-
-.fa-github:hover {
-  color: #000000;
-}
-.fa-facebook:hover {
-  color: #1773EA;
-}
-.fa-instagram:hover {
-  color: #B32E87;
-}
-.fa-twitter:hover {
-  color: #1C9CEA;
-}
 /* Features */
 .features-head img, .docs-head img {
   width : 200px;
@@ -228,6 +211,24 @@ code, pre {
 }
 .docs-main a:hover {
   font-weight: bold;
+}
+
+/*  Footer */
+.footer .social a {
+  margin: 0 10px;
+}
+
+.fa-github:hover {
+  color: #000000;
+}
+.fa-facebook:hover {
+  color: #1773EA;
+}
+.fa-instagram:hover {
+  color: #B32E87;
+}
+.fa-twitter:hover {
+  color: #1C9CEA;
 }
 
 /* Animations */
@@ -332,4 +333,15 @@ code, pre {
   .showcase-form {
     width:300px;
   }
+  .grid,
+  .showcase .grid,
+  .stats .grid,
+  .cli .grid,
+  .cloud .grid,
+  .features-main .grid,
+  .docs-main .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
 }
