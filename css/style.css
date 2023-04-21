@@ -177,6 +177,19 @@ code, pre {
 .footer .social a {
   margin: 0 10px;
 }
+
+.fa-github:hover {
+  color: #000000;
+}
+.fa-facebook:hover {
+  color: #1773EA;
+}
+.fa-instagram:hover {
+  color: #B32E87;
+}
+.fa-twitter:hover {
+  color: #1C9CEA;
+}
 /* Features */
 .features-head img, .docs-head img {
   width : 200px;
@@ -239,7 +252,7 @@ code, pre {
     transform: translateY(-100%)
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
   }
 }
 @keyframes slideInFromBottom {
@@ -247,7 +260,12 @@ code, pre {
     transform: translateY(100%)
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(0);
+  }
+}
+@media (max-width: 1000px) {
+  .showcase-form {
+    width: 340px;
   }
 }
 /* Tablets and under */
